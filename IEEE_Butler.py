@@ -5,7 +5,9 @@ import asyncio
 import pickle
 import os
 import string
+import logging
 
+logging.basicConfig(level=logging.INFO)
 bot_token = '<INSERT BOT TOKEN HERE>'
 randomstartnumber = random.randint(1,100)
 
