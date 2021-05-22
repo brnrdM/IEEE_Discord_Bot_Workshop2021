@@ -26,6 +26,7 @@ async def on_ready():
     print('------')
 
 ######################### CUSTOM DISCORD COMMANDS #########################
+https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=command#discord.ext.commands.Bot.command
 @bot.command()
 async def hello(ctx):
     """ Responds \"Hello USERNAME \" """
